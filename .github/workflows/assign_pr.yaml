@@ -11,5 +11,5 @@ jobs:
       - name: 'Auto-assign PR'
         uses: pozil/auto-assign-issue@v1
         with:
-          repo-token: ${{ secrets.SCCM_LOC_AUTO_ASSIGN_ISSUE_TOKEN }}
+          repo-token: ${{ secrets.TEST_TOKEN }}
           teams: sccm-loc
