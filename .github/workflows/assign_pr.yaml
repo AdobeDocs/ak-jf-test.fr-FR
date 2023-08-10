@@ -5,7 +5,7 @@ on:
     types: [opened, reopened]
     
 jobs:
-  pr-auto-assign:
+  auto-assign:
     runs-on: ubuntu-latest
     steps:
       - name: 'Auto-assign PR'
